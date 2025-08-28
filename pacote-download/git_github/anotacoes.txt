@@ -31,4 +31,28 @@ ATALHOS
 abrir vs code - Ctrl + Shift + A
 push - Ctrl + p
 
-PARA QUE SERVE ISSO?
+ISSUES
+fazer uma busca sobre a issue, evitar duplicar
+
+MARKDOWN
+    - tipo HTML 
+    - usada em README, issues and pull request
+    - *[texto]* - itálico
+    - **[texto]** - negrito
+    - preview para ver como vai ficar
+    - # - h1
+    - ## - h2
+    - ### - h3
+    - *** - faz uma linha
+    - [número]. - lista numerada
+    - * - lista demarcada
+    - - [ ] - lista de tarefas (por x dentro dos colchetes)
+    - máx imagem: 400/ 500 px
+    - [frase] (link)
+    - [ [tema 1] | [tema 2] | [tema 3]]
+        ---|---|--- -  tabela
+    - ` para por código
+    - : [nome] - ára por emoji (github.com/ikatyang - nome dos emoji no repositorio)
+    - marca-se usuário por @
+    - quote reply - responde alguém 
+    - > - quote
