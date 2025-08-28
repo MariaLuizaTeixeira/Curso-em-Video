@@ -13,7 +13,6 @@ github
     - colaboração
     - fork
     - proprietário
-commit - 
 repositório central/linear - enviar pasta para repositório central (tem que estar conectado ao servidor) 
 repositório distribuído - repositório local e repositório remoto
 github -plataforma de rede social para programadores
@@ -24,6 +23,7 @@ PRINCIPAIS VANTAGENS
 - ramificação do projeto
 - segurança
 - organização
+commit - envia para repositório local
 push - pegar do repositório local e enviar para o repositório remoto
 pull - pegar do repositório remoto e enviar para o repositório local
 
@@ -56,3 +56,9 @@ MARKDOWN
     - marca-se usuário por @
     - quote reply - responde alguém 
     - > - quote
+
+BRANCHES
+    - master: ramificação principal/ oficial
+    - origin: repositório remoto
+    - branch: ramificação que não é a oficial
+    - merge: passar a branch para a master
