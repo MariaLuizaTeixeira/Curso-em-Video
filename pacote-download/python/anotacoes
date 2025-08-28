@@ -1,0 +1,47 @@
+
+tudo são objetos
++ é usado para concatenar apenas em aspas, fora disso usa-se vírgula
+int - inteiro
+float - racionais
+bool - true/ false
+str - entre aspas
+print(n.isnumeric()) - se é número
+print(n.isnumeric()) - se é letra
+potencia - **
+divisão inteira - //
+ordem de precedencia
+1 ()
+2 **
+3 *, /, //, %
+4 +, -
+,  end = ' ' - não quebra linha entre dois prints
+import biblioteca  - importa todas as funcionalidades
+from biblioteca import funcionalidade 
+phyton.org>docs>library reference para ver as bibliotecas
+pypi para bibliotecas da comunidade
+fatiamento[x:y] - do x ate y-1
+fatiamento[x:y:z] - do x ate y-1 pulando de z em z vezes
+fatiamento[:x] - do zero ao x-1
+fatiamento[x:] - do x ao final
+quando se usa find com um texto wue não existe se retorna -1
+<string>.strip - remove espaços no final r no começo 
+<string>.split - gera uma lista separada das palavras da string, vada elemento vai ser a palavra
+'-'.join(string) - junta, contrário do split
+<string>.len - conta caracteres
+in - ver se algo está dentro
+<string>.find - procura na string 
+<string>.rfind - procura na string começando do lado direito
+len(string) - conta caracteres
+<string>.count('x') - conta o numero de x na string
+elif - elseif
+tuplas são imutáveis!!! (nao adicionar nem remover elementos, só é possível apagar(del))
++ em tuplas concatena (prestar atenção na ordem)
+[tupla].index(x) - mostra a posição de x na tupla
+[tupla].index(x, y) - mostra qual a posicao de x a partir da posicao y
+tupla aceita diferentes tipos de dados
+lista.append() - poe no final
+lista.insert() - poe onde vc quiser
+del lista[posicao] / lista.pop(posicao) / lista.remove('valor') - primeira ocorrencia
+lista = list(range(x, y))
+lista.sort
+lista.sort(reverse = True)

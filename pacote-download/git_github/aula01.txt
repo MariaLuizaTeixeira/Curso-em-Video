@@ -1,0 +1,34 @@
+git ≠ github
+git 
+    - software de controle de versão (VCS)
+    - versionamento de software
+    - versões
+    - source code managment (SCM)
+github 
+    - repositório remoto
+    - repositórios ilimitados
+    - hospedagem de código-fonte
+    - características de rede social
+    - github pages integrado
+    - colaboração
+    - fork
+    - proprietário
+commit - 
+repositório central/linear - enviar pasta para repositório central (tem que estar conectado ao servidor) 
+repositório distribuído - repositório local e repositório remoto
+github -plataforma de rede social para programadores
+
+PRINCIPAIS VANTAGENS
+- controle de histórico
+- trabalho em equipe
+- ramificação do projeto
+- segurança
+- organização
+push - pegar do repositório local e enviar para o repositório remoto
+pull - pegar do repositório remoto e enviar para o repositório local
+
+ATALHOS
+abrir vs code - Ctrl + Shift + A
+push - Ctrl + p
+
+PARA QUE SERVE ISSO?
