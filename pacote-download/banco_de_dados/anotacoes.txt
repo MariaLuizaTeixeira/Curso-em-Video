@@ -1,0 +1,28 @@
+ficha - registros
+pastas - tabelas
+armários - arquivos
+arquivos sequenciais - dados guardados em uma sequência
+acesso direto - arquivos acessados através de índice
+
+PARTES DO BANCO DE DADOS 
+    - base de dados
+    - sistema gerenciador
+    - linguagem de exploração - linguagem de acesso aos dados
+    - programas adicionais
+
+MODELO RELACIONAL
+    - 
+SQL = Structured Query Language
+DDL - linguagem de definição
+DML - linguageme de manipulação
+DQL - linguagem de solicitação
+DCL - linguagem de controle
+DTL - linguagem de transações
+OBJETIVO - registrar instâncias separadas de coisas que têm características semelhantes
+conjuntos de tabelas (que são conjuntos de registros)
+
+TIPOS DE DADOS
+    - numérico (inteiro, real e lógico)
+    - data/tempo
+    - literal (caractere, texto, binário e coleção)
+    - espacial
