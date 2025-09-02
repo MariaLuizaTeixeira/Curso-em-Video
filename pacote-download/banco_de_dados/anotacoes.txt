@@ -15,7 +15,7 @@ MODELO RELACIONAL
 SQL = Structured Query Language
 DDL - linguagem de definição (ex. create database, create table, alter/drop table)
 DML - linguageme de manipulação (ex. insert into, delete, update, truncate)
-DQL - linguagem de solicitação
+DQL - linguagem de solicitação (ex. select)
 DCL - linguagem de controle
 DTL - linguagem de transações
 OBJETIVO - registrar instâncias separadas de coisas que têm características semelhantes
@@ -39,7 +39,7 @@ COMANDOS
     - ALTER TABLE (para coluna) {
         add column
         drop column
-        modify column
+        modify column (não permite renomear)
         change column - [nome antes] [nome novo] [constraint]
         rename to (para nome da tabela)
     }
@@ -51,3 +51,6 @@ COMANDOS
         UPDATE - set where (limit)
         truncate table - apaga todas as linhas
 dump - cópia do banco de dados
+show [comando] - para ver como ele foi criado
+drop como comando - apaga database e table
+drop como parametro - usado com alter, apaga coluna
