@@ -13,8 +13,8 @@ PARTES DO BANCO DE DADOS
 MODELO RELACIONAL
     - 
 SQL = Structured Query Language
-DDL - linguagem de definição
-DML - linguageme de manipulação
+DDL - linguagem de definição (ex. create database, create table, alter/drop table)
+DML - linguageme de manipulação (ex. insert into, delete, update, truncate)
 DQL - linguagem de solicitação
 DCL - linguagem de controle
 DTL - linguagem de transações
@@ -26,3 +26,28 @@ TIPOS DE DADOS
     - data/tempo
     - literal (caractere, texto, binário e coleção)
     - espacial
+constraint - regras para a criação de coisas dentro do banco
+enum - define o que pode ser aceito
+
+COMANDOS
+    - drop - drop database/drop table
+    - default character set utf8mb4
+    - default collate utf8mb4_general_ci;
+    - auto_increment
+    - decimal(5, 2) - primeiro número: quantas casas, segundo número: quantas casas depois da vírgula
+    - create/drop table if not exists
+    - ALTER TABLE (para coluna) {
+        add column
+        drop column
+        modify column
+        change column - [nome antes] [nome novo] [constraint]
+        rename to (para nome da tabela)
+    }
+    unique - nao deixa cadastrar mais de um daquele campo com o mesmo nome
+    unsigned - sem sinal
+    linha horizontal, coluna vertical
+    comandos para linha:
+        limit - limita quantas linhas seráo afetadas
+        UPDATE - set where (limit)
+        truncate table - apaga todas as linhas
+dump - cópia do banco de dados
