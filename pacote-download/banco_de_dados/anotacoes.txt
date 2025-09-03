@@ -42,6 +42,28 @@ COMANDOS
         modify column (não permite renomear)
         change column - [nome antes] [nome novo] [constraint]
         rename to (para nome da tabela)
+        add foreign key references
+    }
+    - SELECT {
+        - order by [coluna] desc
+        - order by [coluna1], [coluna2]
+        - where [coluna] = 'x'
+        - where [coluna] between 'x' and 'y'
+        - where [coluna] in ('x', 'y')
+        - where [coluna1] > 'x' and [coluna2] < 'y'
+        - where [coluna] like 'x%'
+        - where [coluna] like '%x%'
+        - where nome like 'xy%x_';
+        - where nome like 'x__y%'
+        - select distinct - lista só que apenas uma vez cada ocorrencia
+        - select count([coluna])
+        - select count(*) from cursos
+            where [coluna] > x
+        - select max([coluna])
+        - select [coluna1], min([coluna2])
+        - select sum([coluna1])
+        - select avg([coluna2])
+        - ordem: select, where, group by, having, order
     }
     unique - nao deixa cadastrar mais de um daquele campo com o mesmo nome
     unsigned - sem sinal
@@ -50,7 +72,33 @@ COMANDOS
         limit - limita quantas linhas seráo afetadas
         UPDATE - set where (limit)
         truncate table - apaga todas as linhas
+    select g.id, g.nome, a.idgafanhoto, a.idcurso, c.nome from gafanhotos g
+join gafanhoto_assiste_curso a 
+on g.id = a.idgafanhoto
+join cursos c
+on c.idcurso = a.idcurso;
 dump - cópia do banco de dados
 show [comando] - para ver como ele foi criado
 drop como comando - apaga database e table
 drop como parametro - usado com alter, apaga coluna
+% - substitui nenhum ou qualquer caracteres
+_ - substitui qualquer caracter
+entidade - container
+atributo
+relacionamento
+DER - diagrama entidade-relacionamento
+cardinalidade
+chave estrangeira - chave primária de algum lugar que foi para outro (1, n - a do lado 1 vai para o n; n, n - o relacionamente vira atributo e os relacionamentos entre as entidades e a 3 tabela vira 1, n)
+engine - maquina de criacao de tabela
+ACID - regras de transação (ações do BDD): 
+    - Atomicidade - a tarefa tem que ser feita por completo
+    - Consistência - consistência antes e depois da transição
+    - Isolamento - se duas transações ocorrerem ao mesmo tempo uma não pode afetar a outra
+    - Durabilidade - o dado tem que durar até o tempo desejado
+MUL - chave múltipla (estrangeira)
+não se pode apagar uma linha que tem chave estrangeira em algum ponto
+join - aparece somente com as relações
+select [tabela.coluna]
+from [tabela1] (left/right, outer/inner)join [tabela2]
+on [tabela2.colunax] = [tabela1.colunax]
+
