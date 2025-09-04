@@ -1,0 +1,5 @@
+camel case:
+    todas as palavras com as primeiras letras maiusculas - classe
+    só a segunda com letra maiuscula - atributo/variavel/metodo
+    todas minusculas - pacote
+    todas maiusculas - constante
