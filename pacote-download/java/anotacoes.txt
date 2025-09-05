@@ -3,3 +3,4 @@ camel case:
     só a segunda com letra maiuscula - atributo/variavel/metodo
     todas minusculas - pacote
     todas maiusculas - constante
+    extends - herança 
