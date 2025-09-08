@@ -4,3 +4,16 @@ camel case:
     todas minusculas - pacote
     todas maiusculas - constante
     extends - herança 
+    float tem f no final para declarar
+    char só aceita UM caracter
+    .next[tipo] - entrada de dados
+    math.pow
+    math.sqrt
+    math.cbrt
+    math.abs - valor absoluto
+    math.floor - arredonda para baixo
+    math.ceil - arredonda para cima
+    round - arredonda normal
+     x + math.random * (y - x)
+     [variavel].equals(variavel2) - verifica o que está dentro, == verifica a estrutura
+     ^ - ou exclusivo
