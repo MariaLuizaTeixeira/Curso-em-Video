@@ -17,3 +17,8 @@ camel case:
      x + math.random * (y - x)
      [variavel].equals(variavel2) - verifica o que está dentro, == verifica a estrutura
      ^ - ou exclusivo
+     vetores e matrizes sao considerados sempre variaveis compostas
+     [vetor].length
+     arrays.sort([vetor])
+     Arrays.binarySearch([vetor], x) - procura no vetor
+     Arrays.fill([vetor], x) - preenche tudo com x
