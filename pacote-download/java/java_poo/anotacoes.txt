@@ -1,0 +1,31 @@
+POO - programação orientada a objetos
+objetivo - aproximar o mundo digital do mundo real
+objeto
+    coisa material ou abstrata que pode ser percebida pelos sentidos e descrita por meio das suas características, comportamentos e estado atual; 
+    instância de uma classe
+classe
+    modelo do objeto
+    coisas que eu tenho (atributos)
+    coisas que eu faço (métodos)
+    como eu estou agora (estado)
+    define os atributos e métodos comuns que serão compartilhados por um objeto
+instanciar - gerar objeto através da classe
+abstração - considerar quais serão os atributos da classe
+LMU
+    linguagem de modelagem unificada; 
+    diagrama de classes: toda classe é um retângulo;
+modificadores de visibilidade - indicam o nível de acesso aos componentes internos de uma classe
+    + - público: para a classe atual e todas as outras classes;
+    - - privado: para a classe atual (não dá para definir atributos privados da maneira tradicional)
+    # - protegido: para a classe atual e suas sub-classes
+    na chamada só dá para mexer em atributos públicos
+se um atributo é privado, mas ele é citado em um método público, o método pode funcionar pois a é chamada for na mesma classe
+getters e setters são sempre públicos
+método construtor tem sempre o mesmo nome da classe
+EHP - encapsulamento, herança, polimorfismo 
+encapsulamento
+    ocultar partes independentes da implementação, permitindo construir partes invsíveis ao mundo exterior
+    torna mudanças invisiveis
+    facilita reutilização do código
+    reduz efeito colaterais
+interface - comunicação com o meio externo
