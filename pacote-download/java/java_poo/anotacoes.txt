@@ -28,4 +28,13 @@ encapsulamento
     torna mudanças invisiveis
     facilita reutilização do código
     reduz efeito colaterais
-interface - comunicação com o meio externo
+interface 
+    comunicação com o meio externo
+    só tem métodos e só os nomes delas, não são desenvolvidos (métodos abstratos)
+    todos os métodos definidos na interface são públicos
+sempre que é boolean, o get vira is
+relacionamento entre classes
+herança
+    permite basear uma nova classe na definição de uma outra classe previamente existente
+    será aplicada tanto para características, quando para comportamentos
+    
