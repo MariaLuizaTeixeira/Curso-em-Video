@@ -5,13 +5,6 @@ public class Funcionario extends Pessoa{
     private String setor;
     private boolean trabalhando;
 
-    // Construtor
-    public Funcionario(String nome, int idade, String sexo, String setor, boolean trabalhando) {
-        super(nome, idade, sexo);
-        this.setor = setor;
-        this.trabalhando = trabalhando;
-    }
-
     // Getters e setters
     public String getSetor() {
         return setor;
@@ -31,6 +24,6 @@ public class Funcionario extends Pessoa{
     
     // Métodos
     public void mudarTrabalho() {
-        
+        setTrabalhando(!(isTrabalhando()));
     }
 }

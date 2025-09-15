@@ -37,4 +37,25 @@ relacionamento entre classes
 herança
     permite basear uma nova classe na definição de uma outra classe previamente existente
     será aplicada tanto para características, quando para comportamentos
+    herança de implementação - filho que pega características da mãe e sem impementar novas
+    herança para diferença - filho que pega características da mãe e implementa novas
+navegação pela herança
+    raiz - classe que não é subclasse de nenhuma
+    folha - classe que não é superclasse que ninguém
+    descendente - neta
+    ancestral - vó
+    especialização - ver de cima para baixo
+    generalização - ver de baixo para cima
+classe abstrata - não pode gerar objetos, ela é apenas progenitora
+método abstrato - declarado, mas não implementado na progenitora
+classe final = não pode ser herdada por outras classes, obrigatoriamente folha
+método final - não pode ser sobrescrito pelas suas sub-classes, obrigatoriamente herdado
+polimorfismo
+    poli - muito
+    morfo - formas
+    permite que um mesmo nome represente vários comportamentos diferentes
+    assinatura do método - quantidade e tipos dos parâmetros (retorno não conta e a ordem dos tipos faz diferença)
+    polimorfismo de sorbeposição - sobrepõe da superclasse nas subclasses com a mesma assinatura com resultados diferentes
+    polimorfismo de sobrecarga - métodos com o mesmo nome, assinaturas diferentes e na mesma classe
+lembrete! - quando o método for abstrato, apenas declarar, não por chaves ({})
     

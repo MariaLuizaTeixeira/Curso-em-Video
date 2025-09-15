@@ -1,6 +1,5 @@
-package aula08;
-public class Pessoa {
-
+package aula09;
+abstract class Pessoa {
     // Atributos
     private String nome;
     private int idade;
@@ -26,14 +25,13 @@ public class Pessoa {
         this.sexo = sexo;
     }
 
-    // Métodos
-    public void fazerAniv() {
+    // Metodos
+    public void fazerAniversario() {
         setIdade(getIdade() + 1);
     }
-    
+
     @Override
     public String toString() {
-        return "Pessoa [nome=" + nome + ", idade=" + idade + ", sexo=" + sexo + "]";
+        return "Dados:\n Nome - " + nome + "\nIdade - " + idade + "\nSexo - " + sexo;
     }
-
 }
