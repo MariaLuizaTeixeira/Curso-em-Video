@@ -1,1 +1,13 @@
 Spring boot - framework que facilita a criação de aplicações java com base no Spring framework
+pom.xml - listagem e instalação de dependências
+pasta test - testes unitários
+pasta resources - arquivos de configuração, templates e arquivos estáticos (css, js, html)
+arquivo java na pasta java tem o nome que a gente nomeia quando cria a spring + sufixo application, é a clase que inicializa a aplicação
+controller - classe que recebe requisições http
+end point, path
+porta 8080 é a padrão
+application-dev.properties @Profile("dev") no firstspringapplication e spring.profiles.active=dev no application.properties
+classes service - classes para definir as regras
+src/main/java - código da aplicação
+src/main/resources - arquivos de configuração
+src/test/java - testes automatizados
