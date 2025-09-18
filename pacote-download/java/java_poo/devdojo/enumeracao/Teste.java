@@ -10,6 +10,6 @@ public static void main(String[] args) {
     System.out.println(TipoPagamento.DEBITO.cancularDesconto(100));
     System.out.println(TipoPagamento.CREDITO.cancularDesconto(100));
 
-    TipoCliente tipoCliente = TipoCliente.valuesOf("Pessoa Física");
+   // TipoCliente tipoCliente = TipoCliente.valuesOf("Pessoa Física");
 }
 }
