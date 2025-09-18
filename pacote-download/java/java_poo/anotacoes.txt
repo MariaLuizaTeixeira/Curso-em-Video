@@ -58,4 +58,9 @@ polimorfismo
     polimorfismo de sorbeposição - sobrepõe da superclasse nas subclasses com a mesma assinatura com resultados diferentes
     polimorfismo de sobrecarga - métodos com o mesmo nome, assinaturas diferentes e na mesma classe
 lembrete! - quando o método for abstrato, apenas declarar, não por chaves ({})
+Enumeração
+    - escolha dentro de um tipo limitado de opções e precisa forçar o tipo
+    - os tipos dentro da enumeração são tipos mesmo nome do arquivo
+    - é passível de criação dentro de classe (public enum ...), só que quando for instanciar, passar por [nome da classe que o enum esta].[nome da classe enum].[opcao]
+    valueOf retorna baseado no nome
     
