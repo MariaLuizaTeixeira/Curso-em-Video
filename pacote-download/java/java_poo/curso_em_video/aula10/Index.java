@@ -4,7 +4,7 @@ public class Index {
     public static void main(String[] args) {
         Mamifero m = new Mamifero();
         Peixe p = new Peixe();
-        Reptil r = new Reptil();
+        // Reptil r = new Reptil();
         Ave a = new Ave();
 
         m.setPeso(85.3f);
@@ -29,13 +29,14 @@ public class Index {
         a.alimentar();
         a.emitirSom();
         a.fazerNinho();
-
+        /* 
         Canguru c = new Canguru();
         Cachorro k = new Cachorro();
         Cobra j = new Cobra();
         Arara e = new Arara();
         Tartaturuga t = new Tartaturuga();
         Goldfish g = new Goldfish();
+        */
 
 
         m.setPeso(5.70f);

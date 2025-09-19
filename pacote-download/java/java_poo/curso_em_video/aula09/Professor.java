@@ -26,6 +26,7 @@ public class Professor extends Pessoa{
         System.out.println("Insira o valor do aumento: ");
         setSalario(getSalario() + scanner.nextFloat());
         System.out.println("O novo salário é " + getSalario());
+        scanner.close();
     }
     
 }

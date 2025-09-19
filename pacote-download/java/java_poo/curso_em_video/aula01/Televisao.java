@@ -37,6 +37,7 @@ public class Televisao {
         System.out.println("Digite o número do canal desejado: ");
         this.canal = scanner.nextFloat();
         System.out.println("Canal mudado para canal " + this.canal);
+        scanner.close();
     }
 
 }

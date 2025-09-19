@@ -3,7 +3,7 @@ public enum TipoCliente {
     PESSOA_JURIDICA(2, "Pessoa Jurídica");
 
     private final int valor;
-    private String nomeRelatorio;
+    private final String nomeRelatorio;
     TipoCliente(int valor, String nomeRelatorio) {
         this.valor = valor;
         this.nomeRelatorio = nomeRelatorio;

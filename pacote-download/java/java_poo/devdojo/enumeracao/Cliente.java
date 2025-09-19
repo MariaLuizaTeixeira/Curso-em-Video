@@ -1,7 +1,7 @@
 public class Cliente {
-    private String nome;
-    private TipoCliente tipoCliente;
-    private TipoPagamento tipoPagamento;
+    private final String nome;
+    private final TipoCliente tipoCliente;
+    private final TipoPagamento tipoPagamento;
     public Cliente(String nome, TipoCliente tipoCliente, TipoPagamento tipoPagamento) {
         this.nome = nome;
         this.tipoCliente = tipoCliente;

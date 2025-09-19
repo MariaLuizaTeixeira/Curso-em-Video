@@ -1,13 +1,12 @@
 package sistema_universidade;
 
 public class Aluno extends Pessoa {
-
     // Atributos
     private int matricula;
-    private Curso curso;
+    private DepartamentoCursos curso;
 
     // Construtor
-    public Aluno(String nome, int cpf, int idade, int matricula, Curso curso) {
+    public Aluno(String nome, int cpf, int idade, int matricula, DepartamentoCursos curso) {
         super(nome, cpf, idade);
     }
 
@@ -20,11 +19,11 @@ public class Aluno extends Pessoa {
         this.matricula = matricula;
     }
 
-     public Curso getCurso() {
+     public DepartamentoCursos getCurso() {
         return curso;
     }
 
-    public void setCurso(Curso curso) {
+    public void setCurso(DepartamentoCursos curso) {
         this.curso = curso;
     }
 
@@ -37,7 +36,7 @@ public class Aluno extends Pessoa {
        System.out.println("Idade - " + getIdade());
     }
     
-    public void realizarProva() {
+    public void realizarProva(Disciplina d) {
         System.out.println("Realizando prova.");
     }
 }
