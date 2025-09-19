@@ -45,3 +45,7 @@ del lista[posicao] / lista.pop(posicao) / lista.remove('valor') - primeira ocorr
 lista = list(range(x, y))
 lista.sort
 lista.sort(reverse = True)
+dicionario 
+    dict() ou dicionario = {'nome': 'Pedro, 'idade', 25}
+    keys - os nomes das posições
+    items - tudo
