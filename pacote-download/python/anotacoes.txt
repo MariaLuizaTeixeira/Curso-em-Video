@@ -49,3 +49,8 @@ dicionario
     dict() ou dicionario = {'nome': 'Pedro, 'idade', 25}
     keys - os nomes das posições
     items - tudo
+modulo - separação do codigo
+pacote - pasta que contem modulos separados por temas
+    toda pasta é pacote
+    __init__.py
+exceção - erros que não são de sintaxe

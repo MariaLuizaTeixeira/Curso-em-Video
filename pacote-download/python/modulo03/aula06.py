@@ -1,4 +1,3 @@
-'''
 help(print)
 print(input.__doc__)
 
@@ -102,6 +101,6 @@ def notas(* num, bool=''):
     return dic
 resp = notas(10, 10, 10, True)
 print(resp)
-'''
+
 
 
