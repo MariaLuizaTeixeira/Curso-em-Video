@@ -1,4 +1,3 @@
-'''
 pessoas = {'nome': 'Gustavo', 'sexo' : 'M', 'idade' : 22}
 print(f'O {pessoas["nome"]} tem {pessoas["idade"]} anos.')
 print(pessoas.keys())
@@ -80,7 +79,7 @@ for i in range(0, jogos):
 jogadora['gols'] = partidas
 print(jogadora)
 print(f'Ela fez um total de {tot} gols.')
-'''
+
 # EXERCICIO 94
 pessoa = dict()
 pessoas = list()
